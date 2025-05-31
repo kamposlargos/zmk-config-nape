@@ -224,5 +224,10 @@
             bindings = <&to 4>;
             key-positions = <0 2>;
         };
+
+        combo-app {
+            bindings = <&kp F15>;
+            key-positions = <1 0>;
+        };
     };
 };
