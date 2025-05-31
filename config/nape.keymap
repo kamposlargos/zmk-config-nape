@@ -214,10 +214,15 @@
 
         // Key1、2同時押しでスクロールレイヤーへ
 
-        combo_layer9 {
+        combo_win {
             bindings = <&kp LEFT_GUI>;
             key-positions = <1 2>;
             timeout-ms = <50>;
+        };
+
+        combo-to-4 {
+            bindings = <&to 4>;
+            key-positions = <0 2>;
         };
     };
 };
